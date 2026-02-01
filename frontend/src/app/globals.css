@@ -21,6 +21,7 @@
         background-color: var(--carbon-core);
         color: #f4f4f5;
         font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
+        overflow: auto;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
@@ -162,6 +163,7 @@
     from {
         transform: translateY(-100%);
     }
+
     to {
         transform: translateY(100vh);
     }
